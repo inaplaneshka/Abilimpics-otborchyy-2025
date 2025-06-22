@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Год защитника Отечества - 80 лет Победы. Дети войны</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helios&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'Bastion Kontrast All';
+            src: url('https://example.com/fonts/Bastion-Kontrast-All-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="80 лет Победы. Дети войны">
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#main" class="visited-link">Главная</a></li>
+                        <li><a href="#events" class="visited-link">События ВОВ</a></li>
+                        <li><a href="#children" class="visited-link">Дети войны</a></li>
+                        <li><a href="#activities" class="visited-link">Мероприятия</a></li>
+                        <li><a href="#gallery" class="visited-link">Галерея</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="social-link visited-link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="social-link visited-link"><i class="fab fa-odnoklassniki"></i></a>
+                    <a href="#" class="social-link visited-link"><i class="fab fa-telegram"></i></a>
+                </div>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Первый экран -->
+    <section id="main" class="hero-section">
+        <div class="container">
+            <!-- Слайдер -->
+            <div class="slider">
+                <div class="slider-container">
+                    <div class="slide active">
+                        <img src="images/banner1.jpg" alt="80 лет Победы. Дети войны">
+                    </div>
+                    <div class="slide">
+                        <img src="images/banner2.jpg" alt="Память поколений. Дети войны">
+                    </div>
+                    <div class="slide">
+                        <img src="images/banner3.jpg" alt="Год защитника Отечества. Дети войны">
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Тезисное описание -->
+            <div class="hero-description">
+                <h1>2025 год - Год защитника Отечества</h1>
+                <p>В ознаменование 80-летия Победы в Великой Отечественной войне 1941–1945 годов. Особое внимание - детям войны.</p>
+                <blockquote>
+                    <i class="fas fa-quote-left"></i> Дети и война - нет более ужасного сближения противоположных вещей на свете <i class="fas fa-quote-right"></i>
+                    <footer>- Александр Твардовский</footer>
+                </blockquote>
+                <blockquote>
+                    <i class="fas fa-quote-left"></i> Мы должны сохранить память о подвиге детей войны, которые наравне со взрослыми ковали Победу в тылу и на фронте <i class="fas fa-quote-right"></i>
+                    <footer>- В.В. Путин</footer>
+                </blockquote>
+                <p>Наш ресурс создан для сохранения исторической памяти о детях войны, объединения против нацизма и отстаивания исторической правды.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Второй экран - Важные события ВОВ -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2><i class="fas fa-star"></i> Важные события Великой Отечественной войны</h2>
+            <div class="events-grid">
+                <!-- Событие 1 -->
+                <div class="event-card">
+                    <img src="images/event1.jpg" alt="Битва за Москву">
+                    <h3><i class="fas fa-landmark"></i> Битва за Москву (1941-1942)</h3>
+                    <p>Первое крупное поражение немецких войск, развеявшее миф о непобедимости вермахта. Дети помогали строить укрепления и работали на заводах.</p>
+                    <button class="btn-details visited-link" data-video="https://www.youtube.com/embed/..."><i class="fas fa-info-circle"></i> Подробнее</button>
+                </div>
+                
+                <!-- Событие 2 -->
+                <div class="event-card">
+                    <img src="images/event2.jpg" alt="Сталинградская битва">
+                    <h3><i class="fas fa-monument"></i> Сталинградская битва (1942-1943)</h3>
+                    <p>Крупнейшее судопутное сражение в истории. Дети-разведчики внесли неоценимый вклад в победу.</p>
+                    <button class="btn-details visited-link" data-video="https://www.youtube.com/embed/..."><i class="fas fa-info-circle"></i> Подробнее</button>
+                </div>
+                
+                <!-- Событие 3 -->
+                <div class="event-card">
+                    <img src="images/event3.jpg" alt="Курская битва">
+                    <h3><i class="fas fa-tank"></i> Курская битва (1943)</h3>
+                    <p>Крупнейшее танковое сражение. Подростки работали на заводах, производящих технику для фронта.</p>
+                    <button class="btn-details visited-link" data-video="https://www.youtube.com/embed/..."><i class="fas fa-info-circle"></i> Подробнее</button>
+                </div>
+                
+                <!-- Событие 4 -->
+                <div class="event-card">
+                    <img src="images/event4.jpg" alt="Берлинская операция">
+                    <h3><i class="fas fa-flag"></i> Берлинская операция (1945)</h3>
+                    <p>Завершающая операция войны. Многие юные участники войны дошли до Берлина.</p>
+                    <button class="btn-details visited-link" data-video="https://www.youtube.com/embed/..."><i class="fas fa-info-circle"></i> Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Дети войны" -->
+    <section id="children" class="children-section">
+        <div class="container">
+            <h2><i class="fas fa-child"></i> Дети войны</h2>
+            <div class="children-content">
+                <div class="children-text">
+                    <p>Особый раздел нашего проекта посвящен детям войны - тем, чье детство пришлось на страшные годы Великой Отечественной. Они работали на заводах и в полях, помогали в госпиталях, участвовали в партизанском движении.</p>
+                    <p>Мы собрали истории детей войны, их воспоминания и свидетельства, чтобы сохранить память об их подвиге для будущих поколений.</p>
+                    <div class="children-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-industry"></i>
+                            <span class="stat-number">200 000</span>
+                            <span class="stat-text">детей работали на заводах</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-medal"></i>
+                            <span class="stat-number">35 000</span>
+                            <span class="stat-text">юных героев награждены орденами и медалями</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-user-shield"></i>
+                            <span class="stat-number">60 000</span>
+                            <span class="stat-text">детей участвовали в партизанском движении</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="children-image">
+                    <img src="images/children.jpg" alt="Дети войны">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Третий экран - Мероприятия -->
+    <section id="activities" class="activities-section">
+        <div class="container">
+            <h2><i class="fas fa-calendar-alt"></i> Запланированные мероприятия</h2>
+            
+            <h3 class="activities-subtitle"><i class="fas fa-child"></i> Мероприятия, посвященные детям войны:</h3>
+            <div class="activities-grid">
+                <!-- Мероприятие 1 -->
+                <div class="activity-card">
+                    <img src="images/activity-children1.jpg" alt="Встреча с детьми войны">
+                    <h3><i class="fas fa-hands-helping"></i> Встреча поколений "Детство, опаленное войной"</h3>
+                    <p>15 февраля 2025 года. Трогательные встречи школьников с детьми войны, пережившими ужасы военного времени.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 2 -->
+                <div class="activity-card">
+                    <img src="images/activity-children2.jpg" alt="Выставка детских рисунков">
+                    <h3><i class="fas fa-paint-brush"></i> Выставка "Дети рисуют войну"</h3>
+                    <p>Апрель-май 2025 года. Экспозиция детских рисунков и дневников времен Великой Отечественной войны.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 3 -->
+                <div class="activity-card">
+                    <img src="images/activity-children3.jpg" alt="Концерт детских коллективов">
+                    <h3><i class="fas fa-music"></i> Концерт "Песни военного детства"</h3>
+                    <p>6 мая 2025 года. Выступление детских творческих коллективов с песнями военных лет.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 4 -->
+                <div class="activity-card">
+                    <img src="images/activity-children4.jpg" alt="Акция памяти">
+                    <h3><i class="fas fa-history"></i> Акция "Письмо в прошлое"</h3>
+                    <p>9 мая 2025 года. Написание писем детям войны современными школьниками.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+            </div>
+            
+            <h3 class="activities-subtitle"><i class="fas fa-star"></i> Основные мероприятия:</h3>
+            <div class="activities-grid">
+                <!-- Мероприятие 5 -->
+                <div class="activity-card">
+                    <img src="images/gallery1.jpg" alt="Парад Победы">
+                    <h3><i class="fas fa-parade"></i> Парад Победы на Красной площади</h3>
+                    <p>9 мая 2025 года. Торжественный марш в честь 80-летия Победы с участием ветеранов и детей войны.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 6 -->
+                <div class="activity-card">
+                    <img src="images/gallery2.jpg" alt="Бессмертный полк">
+                    <h3><i class="fas fa-users"></i> Акция "Бессмертный полк"</h3>
+                    <p>9 мая 2025 года. Шествие с портретами участников войны, включая детей-героев.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 7 -->
+                <div class="activity-card">
+                    <img src="images/gallery3.jpg" alt="Историческая реконструкция">
+                    <h3><i class="fas fa-history"></i> Реконструкция "Дети фронта"</h3>
+                    <p>Июнь 2025 года. Воссоздание событий с участием детей военного времени.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+                
+                <!-- Мероприятие 8 -->
+                <div class="activity-card">
+                    <img src="images/gallery4.jpg" alt="Концерт">
+                    <h3><i class="fas fa-music"></i> Гала-концерт "Песни Победы"</h3>
+                    <p>8 мая 2025 года. Концерт с участием звезд и детских коллективов.</p>
+                    <button class="btn-register visited-link"><i class="fas fa-user-plus"></i> Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Четвертый экран - Галерея и карта -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2><i class="fas fa-images"></i> Галерея "Дети войны"</h2>
+            
+            <!-- Анимированная галерея -->
+            <div class="animated-gallery">
+                <div class="gallery-container">
+                    <img src="images/gallery-children1.jpg" alt="Дети на производстве" class="gallery-img active">
+                    <img src="images/gallery-children2.jpg" alt="Дети в госпитале" class="gallery-img">
+                    <img src="images/gallery-children3.jpg" alt="Дети-партизаны" class="gallery-img">
+                    <img src="images/gallery-children4.jpg" alt="Дети блокадного Ленинграда" class="gallery-img">
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <!-- Карта мероприятий -->
+            <div class="map-container">
+                <div id="map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Карта мероприятий "Дети войны"</p>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <div class="legend-item"><span class="marker moscow"><i class="fas fa-map-pin"></i></span> Москва</div>
+                    <div class="legend-item"><span class="marker st-petersburg"><i class="fas fa-map-pin"></i></span> Санкт-Петербург</div>
+                    <div class="legend-item"><span class="marker volgograd"><i class="fas fa-map-pin"></i></span> Волгоград</div>
+                    <div class="legend-item"><span class="marker kursk"><i class="fas fa-map-pin"></i></span> Курск</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="80 лет Победы. Дети войны">
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#main" class="visited-link"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="#events" class="visited-link"><i class="fas fa-star"></i> События ВОВ</a></li>
+                        <li><a href="#children" class="visited-link"><i class="fas fa-child"></i> Дети войны</a></li>
+                        <li><a href="#activities" class="visited-link"><i class="fas fa-calendar-alt"></i> Мероприятия</a></li>
+                        <li><a href="#gallery" class="visited-link"><i class="fas fa-images"></i> Галерея</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link visited-link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="social-link visited-link"><i class="fab fa-odnoklassniki"></i></a>
+                    <a href="#" class="social-link visited-link"><i class="fab fa-telegram"></i></a>
+                </div>
+                <div class="footer-contacts">
+                    <p><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</p>
+                    <p><i class="fas fa-envelope"></i> info@deti-voiny.ru</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <i class="far fa-copyright"></i> 2025 Проект "Дети войны". Все права защищены.
+            </div>
+            <button class="btn-up"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для событий ВОВ -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 id="modalTitle">Битва за Москву</h2>
+            <div class="modal-body">
+                <div class="modal-video">
+                    <iframe id="eventVideo" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="modal-text">
+                    <p id="modalDescription">Подробное описание события...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для регистрации -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2><i class="fas fa-user-plus"></i> Регистрация на мероприятие</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="fullName"><i class="fas fa-user"></i> ФИО:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone"><i class="fas fa-phone"></i> Телефон:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="participants"><i class="fas fa-users"></i> Количество участников:</label>
+                    <input type="number" id="participants" name="participants" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="eventName"><i class="fas fa-calendar-check"></i> Мероприятие:</label>
+                    <input type="text" id="eventName" name="eventName" readonly>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="btn-submit"><i class="fas fa-check"></i> Зарегистрироваться</button>
+                    <button type="reset" class="btn-reset"><i class="fas fa-trash-alt"></i> Очистить форму</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
